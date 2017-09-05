@@ -2,6 +2,16 @@ html {
   text-align: center;
 }
 
+h4 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* Main heading section CSS start */
 .main-heading-section h1 {
   font-family: helvetica;
   font-size: 70px;
@@ -18,12 +28,41 @@ html {
   font-size: 18px;
   color: white;
 }
+/* End of styles for navigation menu*/
 
+
+
+/*Start of Process section CSS*/
 .process-section {
   font-family: helvetica;
 }
-
 .process-section h3 {
   font-size: 32px;
   font-weight: bold;
+}
+/* End of Process section CSS */
+
+
+/* Start of "Designed" section */
+.design-section {
+  font-family: helvetica;
+}
+.design-section h3 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+/* End of "Designed" section */
+
+footer {
+  font-family: helvetica;
+  font-size: 13px;
+  color: white;
+  background-color: dimgray;
+}
+
+footer ul li {
+  list-style-type: none;
+  display: inline-block;
 }
